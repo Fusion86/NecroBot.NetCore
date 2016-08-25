@@ -17,7 +17,7 @@ dotnet run
 ```
 
 ## Config
-Edit auth.json and config.json in PoGo.NecroBot.CLI.NetCore/config. Remember to add quotes!
+Edit auth.json and config.json in PoGo.NecroBot.CLI.NetCore/Config. Remember to add quotes!
 
 ## Run
 ```
