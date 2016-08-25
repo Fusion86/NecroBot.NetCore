@@ -39,7 +39,7 @@ namespace PoGo.NecroBot.CLI
         /// </summary>
         /// <param name="message">The message to log. The current time will be prepended.</param>
         /// <param name="level">Optional. Default <see cref="LogLevel.Info" />.</param>
-        /// <param name="color">Optional. Default is auotmatic</param>
+        /// <param name="color">Optional. Default is automatic</param>
         public void Write(string message, LogLevel level = LogLevel.Info, ConsoleColor color = ConsoleColor.Black)
         {
             // Remember to change to a font that supports your language, otherwise it'll still show as ???.
@@ -127,6 +127,7 @@ namespace PoGo.NecroBot.CLI
                     Console.WriteLine($"[{DateTime.Now.ToString("HH:mm:ss")}] ({LoggingStrings.Error}) {message}");
                     break;
             }
+            Console.ResetColor();
         }
 
         public void lineSelect(int lineChar = 0, int linesUp = 1)
