@@ -11,12 +11,12 @@
       "version": "1.0.*"
     },
     "NecroBot.Logic.NetCore": "1.0.0-3",
-"PokemonGo.RocketAPI.NetCore": "1.0.1-16"
+    "PokemonGo.RocketAPI.NetCore": "1.0.1-16"
   },
 
   "frameworks": {
     "netcoreapp1.0": {
-      "imports": [ "dnxcore50", "netstandard1.6" ]
+      "imports": [ "dnxcore50" ]
     }
   },
   "runtimes": {
