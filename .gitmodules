@@ -1,3 +1,6 @@
 [submodule "PoGo.NecroBot.Logic.NetCore"]
 	path = PoGo.NecroBot.Logic.NetCore
 	url = https://github.com/woutervisser/NecroBot.Logic.NetCore.git
+[submodule "PokemonGo.RocketAPI.NetCore"]
+	path = PokemonGo.RocketAPI.NetCore
+	url = https://github.com/WouterVisser/PokemonGo.RocketAPI.NetCore.git

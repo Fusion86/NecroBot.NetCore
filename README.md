@@ -1,4 +1,4 @@
-# NecroBot.CLI.NetCore
+# NecroBot.NetCore
 
 Migrated RocketAPI and other packages to .NET Core so that they can be used on linux/mac/windows etc.
 
@@ -12,8 +12,8 @@ curl -s https://gist.githubusercontent.com/WouterVisser/ef0f683b3c4174e162cd7a0a
 ```
 or copy and paste the code below
 ```
-git clone https://github.com/woutervisser/NecroBot.CLI.NetCore.git --recursive
-cd NecroBot.CLI.NetCore
+git clone https://github.com/woutervisser/NecroBot.NetCore.git --recursive
+cd NecroBot.NetCore
 dotnet restore
 # now is a good time to edit the config files
 # after the config files are setup correctly you can run the bot
@@ -26,14 +26,14 @@ Edit auth.json and config.json in PoGo.NecroBot.CLI.NetCore/Config. Remember to 
 
 ## Run
 ```
-cd NecroBot.CLI.NetCore/PoGo.NecroBot.CLI.NetCore
+cd NecroBot.NetCore/PoGo.NecroBot.CLI.NetCore
 dotnet run
 ```
 
 ## Update
 It's recommended to check for package updates after you updated your repository (by using git pull)
 ```
-cd NecroBot.CLI.NetCore
+cd NecroBot.NetCore
 dotnet restore
 ```
 
