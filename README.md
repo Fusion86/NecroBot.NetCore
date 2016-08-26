@@ -17,7 +17,7 @@ cd NecroBot.NetCore
 dotnet restore
 # now is a good time to edit the config files
 # after the config files are setup correctly you can run the bot
-cd PoGo.NecroBot.CLI.NetCore
+cd NecroBot.CLI.NetCore
 dotnet run
 ```
 
