@@ -6,6 +6,11 @@ Migrated RocketAPI and other packages to .NET Core so that they can be used on l
 - [.NET CORE](https://www.microsoft.com/net/core)
 
 ## Setup
+Use this simple script to clone and build this repository in currentDirectory/NecroBot.CLI.NetCore
+```
+curl -s https://gist.githubusercontent.com/WouterVisser/ef0f683b3c4174e162cd7a0a938bf543/raw/31326406492ac4c2839fe8d05c91e4b8cca86b21/necrobot-cli-netcore-install.sh | bash -s
+```
+or copy and paste the code below
 ```
 git clone https://github.com/woutervisser/NecroBot.CLI.NetCore.git --recursive
 cd NecroBot.CLI.NetCore
