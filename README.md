@@ -1,4 +1,8 @@
+**This bot is dead**
+
 # NecroBot.NetCore
+
+[![Build Status](https://travis-ci.org/Fusion86/NecroBot.NetCore.svg?branch=master)](https://travis-ci.org/Fusion86/NecroBot.NetCore)
 
 Migrated RocketAPI and other packages to .NET Core so that they can be used on linux/mac/windows etc.
 
